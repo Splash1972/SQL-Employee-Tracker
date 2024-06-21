@@ -3,11 +3,10 @@ CREATE DATABASE employee_db;
 
 \c employee_db;
 
-SELECT current_database();
-
 CREATE TABLE department (
   id SERIAL PRIMARY KEY,
-  name VARCHAR(50) NOT NULL
+  name VARCHAR(50) NOT NULL,
+  PRIMARY KEY(id)
 );
 
 CREATE TABLE role (
