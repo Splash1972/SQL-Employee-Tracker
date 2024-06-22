@@ -1,6 +1,11 @@
 const inquirer = require('inquirer');
 const { pool, query } = require('./db');
 
+console.log(`      `);
+console.log(`--------- Colin Robinson's SQL Employee Tracker ---------`);
+console.log(`      `);
+console.log(`      `);
+
 const mainMenu = () => {
   inquirer
     .prompt([
