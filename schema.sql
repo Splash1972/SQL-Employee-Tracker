@@ -5,8 +5,7 @@ CREATE DATABASE employee_db;
 
 CREATE TABLE department (
   id SERIAL PRIMARY KEY,
-  name VARCHAR(50) NOT NULL,
-  PRIMARY KEY(id)
+  name VARCHAR(50) NOT NULL
 );
 
 CREATE TABLE role (
