@@ -11,4 +11,8 @@ Also, you can add to the list of departments, employees, and roles.
 
 All of the information will be stored in the database that I've created, called employee_db.  I use DBeaver to view the tables as well.
 
+The link for the video walkthrough is here:
+
+https://drive.google.com/file/d/1if60nG_CsCrRgtP-LTH07Mgticlczcq_/view
+
 Technologies used: Node, express, Postgres
